@@ -1,0 +1,7 @@
+@import '../styles/base/bem.scss';
+@import '../styles/base/var.scss';
+@import '../styles/base/root.scss';
+
+@include b('box') {
+  box-sizing: border-box;
+}

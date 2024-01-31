@@ -1,17 +1,17 @@
 <template>
-  <div>
+  <div class="nui-demo">
     Hello NUI
   </div>
 </template>
 <script lang="ts">
 export default {
   name: 'Index',
-  data() {
-    return {};
+  data () {
+    return {}
   },
-  methods: {},
-  mounted() {},
-  beforeDestroy() {},
+  mounted () {},
+  beforeUnmount () {},
+  methods: {}
 }
 </script>
 

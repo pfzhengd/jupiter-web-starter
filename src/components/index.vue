@@ -1,18 +1,11 @@
 <template>
   <div class="nui-demo">
-    Hello NUI
+    {{ msg }}
   </div>
 </template>
-<script lang="ts">
-export default {
-  name: 'Index',
-  data () {
-    return {}
-  },
-  mounted () {},
-  beforeUnmount () {},
-  methods: {}
-}
+<script setup>
+import { ref } from 'vue'
+const msg = ref('Hello NUI')
 </script>
 
 <style lang="scss">
